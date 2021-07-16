@@ -8,11 +8,14 @@
             <img src="img/Logo-Ruangderma.png" alt="" class="w-100">
         </div>
         <div class="col-md-10">
-            <h2>"Mari Donasikan Barang Yang Sudah Tidak Terpakai
-                Menjadi Barang Yang Berguna"</h2>
+            <h2><b>"Mari Donasikan Barang Yang Sudah Tidak Terpakai
+                Menjadi Barang Yang Berguna"</b></h2>
             <hr>
             <div class="d-grid gap-1">
-                <button type="button" name="button" class="btn btn-sm">Bergabung...</button>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-sm hov" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Bergabung.
+                </button>
             </div>
         </div>
     </div>
@@ -34,18 +37,18 @@
 
             <div class="row mt-4 text-white fs-1">
                 <div class="col-md-3 my-2">
-                    <div class="card text-center">
-                        <div class="card-header p-4 shadow-sm">
-                            <i class="fas fa-tshirt"></i>
+                    <div class="card text-center lengkung">
+                        <div class="card-header p-4 shadow-sm welcomecollor">
+                            <i class="fas fa-tshirt"></i> | <i class="fas fa-table"></i>
                         </div>
                         <div class="card-body text-dark">
-                            <small>Pakaian</small>
+                            <small>Barang</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 my-2">
-                    <div class="card text-center">
-                        <div class="card-header p-4 shadow-sm">
+                    <div class="card text-center lengkung">
+                        <div class="card-header p-4 shadow-sm welcomecollor">
                             <i class="fas fa-utensils"></i>
                         </div>
                         <div class="card-body text-dark">
@@ -54,22 +57,22 @@
                     </div>
                 </div>
                 <div class="col-md-3 my-2">
-                    <div class="card text-center">
-                        <div class="card-header p-4 shadow-sm">
-                            <i class="fas fa-quran"></i>
+                    <div class="card text-center lengkung">
+                        <div class="card-header p-4 shadow-sm welcomecollor">
+                            <i class="fas fa-book-open"></i>
                         </div>
                         <div class="card-body text-dark">
-                            <small>AL-Quran</small>
+                            <small>Buku</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 my-2">
-                    <div class="card text-center">
-                        <div class="card-header p-4 shadow-sm">
-                            <i class="fas fa-mosque"></i>
+                    <div class="card text-center lengkung">
+                        <div class="card-header p-4 shadow-sm welcomecollor">
+                            <i class="fas fa-at"></i>
                         </div>
                         <div class="card-body text-dark">
-                            <small>Pembangunan</small>
+                            <small>Lainnya</small>
                         </div>
                     </div>
                 </div>
@@ -77,10 +80,29 @@
         </div>
     </div>
     {{-- akhir dari barang yang bisa di donasikan --}}
+</div>
+{{-- end container --}}
 
-    {{-- end container --}}
+{{-- modal --}}
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">RuangDerma | Bergabung.</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
 </div>
 
+
+{{-- footer --}}
 <div class="row bg-dark text-white p-5 mt-5">
     <div class="col-md-12">
         <footer>

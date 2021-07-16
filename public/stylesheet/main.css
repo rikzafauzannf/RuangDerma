@@ -8,20 +8,16 @@ body {
     font-weight: bold;
 }
 
-.card h2 {
-    font-weight: bold;
-}
-
 .lengkung {
     border: none;
     border-radius: 20px;
 }
 
-.btn {
+.hov {
     background-color: gray;
     color: #fff;
 }
-.btn:hover {
+.hov:hover {
     background-color: lightblue;
     color: #fff;
     transition: 0.5s;
@@ -30,23 +26,17 @@ body {
 b {
     font-weight: bold;
 }
-
-.card {
-    border-radius: 20px;
-}
-
-.card .card-header {
+.card .welcomecollor {
     background-color: gray;
     border-radius: 20px;
 }
 
-.card .card-body img {
-    margin-top: -50px;
-}
-
-.card .card-header:hover {
+.card .welcomecollor:hover {
     background-color: lightgreen;
-    transition: 0.5s;
     text-shadow: 4px 4px;
-    margin-top: -10px;
+    transition: 0.5s;
+}
+.card:hover {
+  margin-top: -10px;
+  transition: 0.5s;
 }

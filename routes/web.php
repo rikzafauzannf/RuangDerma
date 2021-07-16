@@ -18,3 +18,9 @@ Route::get('/', function () {
       'title' => "Welcome"
     ]);
 });
+
+Route::get('/home', function(){
+  return view('userpage/home',[
+    'title' => "Home"
+  ]);
+});

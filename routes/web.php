@@ -24,3 +24,9 @@ Route::get('/home', function(){
     'title' => "Home"
   ]);
 });
+
+Route::get('/details_donasi', function(){
+  return view('userpage/detail_donasi',[
+    'title' => "Details"
+  ]);
+});

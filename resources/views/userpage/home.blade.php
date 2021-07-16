@@ -55,9 +55,7 @@
             </table>
             <hr>
             <div class="d-grid gap-1">
-                <button type="button" class="btn btn-sm btn-success lengkung">
-                    detail
-                </button>
+                <a href="/details_donasi" class="btn btn-sm btn-success lengkung">details</a>
             </div>
           </div>
         </div>

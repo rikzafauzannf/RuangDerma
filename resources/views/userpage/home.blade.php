@@ -17,7 +17,7 @@
   {{-- akhir upper --}}
 
   {{-- cari --}}
-  <div class="row p-4 bg-white mt-5 lengkung">
+  <div class="row p-4 bg-white mt-4 lengkung">
     <div class="col-md-6">
       <h5><b>Donasi Barang</b></h5>
       <hr>
@@ -28,30 +28,46 @@
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
     </div>
-  </div>
+
   {{-- akhir cari --}}
 
   {{-- card --}}
-  <div class="row mt-4">
+  <div class="row mt-3">
 
-    @for ($i=0; $i < 10; $i++)
+    @for ($i=0; $i < 12; $i++)
 
-      <div class="col-md-3">
-        <div class="card my-3 lengkung">
+      <div class="col-md-4">
+        <div class="card my-3">
           <div class="card-header  p-0">
             <img src="img/giving-1826706_1920.jpg" alt="" class="w-100 ">
           </div>
           <div class="card-body">
 
+            <table class="w-100 text-sm">
+              <tr>
+                <td><small>Provinsi</small></td>
+                <td class="text-end"><small>Jawabarat</small></td>
+              </tr>
+              <tr>
+                <td><small>Kota</small></td>
+                <td class="text-end"><small>Tasikmalaya</small></td>
+              </tr>
+            </table>
+            <small>nama donatur</small>
+            <hr>
+            <div class="d-grid gap-1">
+                <button type="button" class="btn btn-sm btn-success">
+                    detail
+                </button>
+            </div>
           </div>
         </div>
       </div>
 
-
     @endfor
 
   </div>
-
+</div>
 
 </div>
 {{-- akhir container --}}

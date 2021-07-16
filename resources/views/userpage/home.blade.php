@@ -42,21 +42,20 @@
             <img src="img/giving-1826706_1920.jpg" alt="" class="w-100 ">
           </div>
           <div class="card-body">
-
+            <small><b>Judul Donasi</b></small>
             <table class="w-100 text-sm">
-              <tr>
-                <td><small>Provinsi</small></td>
-                <td class="text-end"><small>Jawabarat</small></td>
-              </tr>
               <tr>
                 <td><small>Kota</small></td>
                 <td class="text-end"><small>Tasikmalaya</small></td>
               </tr>
+              <tr>
+                <td><small>Kondisi</small></td>
+                <td class="text-end"><small>Baru</small></td>
+              </tr>
             </table>
-            <small>nama donatur</small>
             <hr>
             <div class="d-grid gap-1">
-                <button type="button" class="btn btn-sm btn-success">
+                <button type="button" class="btn btn-sm btn-success lengkung">
                     detail
                 </button>
             </div>

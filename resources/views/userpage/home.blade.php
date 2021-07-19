@@ -5,19 +5,19 @@
   {{-- container --}}
 <div class="container">
   {{-- upper --}}
-  <div class="row p-4 bg-white mt-5 lengkung">
+  {{-- <div class="row p-4 bg-white mt-5 lengkung">
     <div class="col-md-2">
-      <img src="img/Logo-Ruangderma.png" alt="" class="w-100">
+      <img src="img/Logo-Ruangderma.png" alt="" class="w-100 card-img-top">
     </div>
     <div class="col-md-10">
       <h4><b>Berbagi kebahagiaan dengan orang yang lebih membutuhkan</b></h4>
       <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe sed cum magnam magni minus, hic totam animi voluptatum esse. Totam consequuntur, assumenda delectus repudiandae expedita cupiditate qui dolor, illo aut inventore quis. Delectus sunt esse aliquam nihil ea dolorum architecto dolor est. Voluptates ex, quasi, odio tempora cum corporis maxime.</small>
     </div>
-  </div>
+  </div> --}}
   {{-- akhir upper --}}
 
   {{-- cari --}}
-  <div class="row p-4 bg-white mt-4 lengkung">
+  <div class="row p-4 bg-white mt-5 lengkung">
     <div class="col-md-6">
       <h5><b>Donasi Barang</b></h5>
       <hr>

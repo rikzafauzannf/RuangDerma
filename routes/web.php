@@ -30,3 +30,9 @@ Route::get('/details_donasi', function(){
     'title' => "Details"
   ]);
 });
+
+Route::get('/profile', function(){
+  return view('userpage/profile',[
+    'title' => "Profile"
+  ]);
+});

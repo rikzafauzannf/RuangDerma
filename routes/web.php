@@ -36,3 +36,9 @@ Route::get('/profile', function(){
     'title' => "Profile"
   ]);
 });
+
+Route::get('/post-donate', function(){
+  return view('userpage/post_donate',[
+    'title' => "PostDonate"
+  ]);
+});

@@ -37,18 +37,10 @@
                     </p>
                     <hr>
 
-                    <form class="" action="index.html" method="post">
-                        <div class="form-floating">
-                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                            <label for="floatingTextarea2">Alasan</label>
-                        </div>
-                        <div class="d-grid">
-                            <button type="button" name="button" class="btn btn-sm btn-primary my-2">Minat</button>
-                        </div>
-                    </form>
 
-                    <div class="d-grid">
-                        <a href="/home" class="btn btn-sm btn-danger">Back</a>
+                    <div class="d-grid ">
+                        <a href="/home" class="btn btn-sm btn-primary mb-3">Minat</a>
+                        <a href="/home" class="btn btn-sm btn-danger">Kembali</a>
                     </div>
 
                 </div>

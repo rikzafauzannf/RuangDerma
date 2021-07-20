@@ -1,9 +1,8 @@
 @extends("layouts.main")
 
 @section("content")
-<div class="jumbotron-welcome mt-2 bg-white p-5">
-    {{-- <div class="container"> --}}
-    <div class="row py-5">
+    <div class="container">
+    <div class="row mt-5 bg-white p-5 lengkung">
 
         <div class="col-md-4">
             <img src="/img/giftbox.svg" alt="gif" class=w-100>
@@ -15,14 +14,13 @@
             <div class="d-grid col-4 mx-auto">
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-md btn-primary lengkung" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                    <span class="spinner-grow spinner-grow-sm text-star" role="status" aria-hidden="true"></span> mulai berbagi
+                    <span class="spinner-grow spinner-grow-sm text-star" role="status" aria-hidden="true"></span> Gabung
                 </button>
             </div>
 
         </div>
     </div>
-    {{-- </div> --}}
-</div>
+    </div>
 
 <div class="container">
     {{-- upper --}}

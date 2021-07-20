@@ -17,6 +17,7 @@ body {
     background-color: gray;
     color: #fff;
 }
+
 .hov:hover {
     background-color: lightblue;
     color: #fff;
@@ -26,6 +27,7 @@ body {
 b {
     font-weight: bold;
 }
+
 .card .welcomecollor {
     background-color: gray;
     border-radius: 20px;
@@ -36,7 +38,8 @@ b {
     text-shadow: 4px 4px;
     transition: 0.5s;
 }
+
 .card:hover {
-  margin-top: -10px;
-  transition: 0.5s;
+    margin-top: -10px;
+    transition: 0.5s;
 }

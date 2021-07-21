@@ -38,8 +38,8 @@
                     <hr>
 
 
-                    <div class="d-grid ">
-                        <a href="/home" class="btn btn-sm btn-primary mb-3">Minat</a>
+                    <div class="d-grid gap-2">
+                        <a href="/home" class="btn btn-sm btn-primary">Minat</a>
                         <a href="/home" class="btn btn-sm btn-danger">Kembali</a>
                     </div>
 

@@ -39,6 +39,12 @@ Route::get('/profile', function(){
 
 Route::get('/post-donate', function(){
   return view('userpage/post_donate',[
-    'title' => "PostDonate"
+    'title' => "PostDonasi"
+  ]);
+});
+
+Route::get('/data-donasi', function(){
+  return view('userpage/data_donate',[
+    'title' => "DataDonasi"
   ]);
 });

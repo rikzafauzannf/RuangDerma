@@ -24,7 +24,7 @@
             <table class="w-100">
               <tr>
                 <td>
-                  Jenis deskripsi
+                  Jenis donasi
                 </td>
                 <td class="text-end">
                   Pakaian
@@ -39,8 +39,6 @@
                 </td>
               </tr>
             </table>
-
-
         </div>
       </div>
 @endfor
